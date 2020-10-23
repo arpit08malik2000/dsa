@@ -9,7 +9,7 @@ public class GreatestCommonDivisorNaiveAlgo {
 		long a = scan.nextLong();
 		long b = scan.nextLong();
 		long rslt = gcd(a,b);
-		System.out.println("GCD of "+a+" and "+b+" is "+rslt);
+		System.out.println(rslt);
 		scan.close();
 	}
 
